@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Drag-and-Drop Example</title>
+    <link rel="stylesheet" href="card.css" />
+  </head>
+  <body>
+    <div class="example-parent">
+        <div class="example-origin">
+         <div class ="heading">To-do</div>
+         <div class="items">
+          <p id="draggable-1" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">
+            Item #1
+          </p>
+          <p id="draggable-2" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">
+          Item #2
+          </p>
+          <p id="draggable-3" class="example-draggable" draggable="true" ondragstart="onDragStart(event);" >
+          Item #3
+        </p>
+          <p id="draggable-4" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">
+          Item #4
+    </p>
+        </div>
+    </div>
+
+  <!--Second Container-->  
+         <div class=" example-origin" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+         <div class="heading_2">Working</div>
+         <div class="items">
+          <p id="draggable-1" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">
+        Item #5
+         </p>
+        <p id="draggable-2" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">
+        Item #6
+       </p>
+        <p id="draggable-3" class="example-draggable"draggable="true" ondragstart="onDragStart(event);"
+        >
+        Item #7
+        </p>
+        <p id="draggable-4" class="example-draggable" draggable="true"ondragstart="onDragStart(event);">
+        Item #8
+       </p>
+      </div>
+    </div>
+
+
+    <!--Third Container-->
+      <div
+      class="example-origin"
+      ondragover="onDragOver(event);"
+      ondrop="onDrop(event);"
+    >
+    <div class="heading_3">Done</div>
+    <div class="items">
+      <p
+      id="draggable-1"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+    Item #9
+    </p>
+    <p
+      id="draggable-2"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+    Item #10
+</p>
+    <p
+      id="draggable-3"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+    Item #11
+</p>
+    <p
+      id="draggable-4"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+    Item #12
+</p>
+  </div>
+</div>
+
+        </div>
+
+
+      <script src="script.js"></script>
+  </body>
+</html>
