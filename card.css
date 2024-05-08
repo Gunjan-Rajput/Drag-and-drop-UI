@@ -1,0 +1,72 @@
+.example-parent {
+    border: 2px solid #DFA612;
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    justify-content: space-around;
+    gap: 10px;
+
+  }
+  
+.heading{
+    text-align: center;
+    background-color: rgb(143, 143, 232);
+    width: 95%;
+    margin-right: 5px;
+    padding: 10px;
+
+}
+  .example-origin {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: rgb(229, 226, 226);
+ }
+
+ .items{
+    margin-top: 15px;
+  padding: 5px 7px 5px 7px;
+ }
+  
+ .heading_2{
+    text-align: center;
+    background-color: orange;
+    width: 95%;
+    margin-right: 5px;
+    padding: 10px;
+ }
+
+ .heading_3{
+    text-align: center;
+    background-color: green;
+    width: 95%;
+    margin-right: 5px;
+    padding: 10px;
+ }
+  
+ .example-draggable {
+   display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: white;
+
+    /* font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px; */
+  }
+  
+  .example-dropzone {
+  display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: white;
+
+    /* flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px; */
+  }
